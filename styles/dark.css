@@ -5,38 +5,38 @@
 */
 
 .page.theme_dark {
-  --text-color: var(--pink-3, #f1b2ce);
-  --background-color: var(--black-3, #000028);
+  --text-color: var(--third-pink, #f1b2ce);
+  --background-color: var(--dark-blue, #000028);
   --background-image: url("../images/cover-image-dark.png");
-  --main-title-color: var(--pink-6, #db00ff);
+  --main-title-color: var(--purple, #db00ff);
 
-  --accent-color-1: var(--pink-5, #ff0070);
-  --accent-color-2: var(--pink-5, #ff0070);
-  --decor-elements: var(--pink-5, #ff0070);
-  --title-color: var(--pink-5, #ff0070);
-  --title-decor-color: var(--black-3, #000028);
-  --background-title-decor-color: var(--pink-5, #ff0070);
-  --button-color: var(--pink-5, #ff0070);
-  --border-button: var(--pink-5-40, #ff007040);
+  --accent-color: var(--main-pink, #ff0070);
+  --shadow-color: var(--main-pink, #ff0070);
+  --decor-elements: var(--main-pink, #ff0070);
+  --title-color: var(--main-pink, #ff0070);
+  --title-decor-color: var(--dark-blue, #000028);
+  --background-title-decor-color: var(--main-pink, #ff0070);
+  --button-color: var(--main-pink, #ff0070);
+  --border-button: var(--main-pink-transparent, #ff007040);
 
   --visible-rec-lamp: visible;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text-color: var(--pink-3, #f1b2ce);
-    --background-color: var(--black-3, #000028);
+    --text-color: var(--third-pink, #f1b2ce);
+    --background-color: var(--dark-blue, #000028);
     --background-image: url("../images/cover-image-dark.png");
-    --main-title-color: var(--pink-6, #db00ff);
+    --main-title-color: var(--purple, #db00ff);
 
-    --accent-color-1: var(--pink-5, #ff0070);
-    --accent-color-2: var(--pink-5, #ff0070);
-    --decor-elements: var(--pink-5, #ff0070);
-    --title-color: var(--pink-5, #ff0070);
-    --title-decor-color: var(--black-3, #000028);
-    --background-title-decor-color: var(--pink-5, #ff0070);
-    --button-color: var(--pink-5, #ff0070);
-    --border-button: var(--pink-5-40, #ff007040);
+    --accent-color: var(--main-pink, #ff0070);
+    --shadow-color: var(--main-pink, #ff0070);
+    --decor-elements: var(--main-pink, #ff0070);
+    --title-color: var(--main-pink, #ff0070);
+    --title-decor-color: var(--dark-blue, #000028);
+    --background-title-decor-color: var(--main-pink, #ff0070);
+    --button-color: var(--main-pink, #ff0070);
+    --border-button: var(--main-pink-transparent, #ff007040);
 
     --visible-rec-lamp: visible;
   }

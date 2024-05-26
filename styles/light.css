@@ -5,19 +5,19 @@
 */
 
 .page.theme_light {
-  --text-color: var(--black-1, #353430);
-  --background-color: var(--pink-1, #fff1f7);
+  --text-color: var(--main-black, #353430);
+  --background-color: var(--first-pink, #fff1f7);
   --background-image: url("../images/cover-image-light.png");
-  --main-title-color: var(--pink-2, #ffc2e6);
+  --main-title-color: var(--second-pink, #ffc2e6);
 
-  --accent-color-1: var(--pink-4, #ff8dcb);
-  --accent-color-2: var(--pink-5, #ff0070);
-  --decor-elements: var(--black-1, #353430);
-  --title-color: var(--black-1, #353430);
-  --title-decor-color: var(--black-1, #353430);
-  --background-title-decor-color: var(--pink-4, #ff8dcb);
-  --button-color: var(--black-1, #353430);
-  --border-button: var(--black-2-40, #32312d40);
+  --accent-color: var(--fourth-pink, #ff8dcb);
+  --shadow-color: var(--main-pink, #ff0070);
+  --decor-elements: var(--main-black, #353430);
+  --title-color: var(--main-black, #353430);
+  --title-decor-color: var(--main-black, #353430);
+  --background-title-decor-color: var(--fourth-pink, #ff8dcb);
+  --button-color: var(--main-black, #353430);
+  --border-button: var(--black, #32312d40);
 
   --visible-rec-lamp: hidden;
 }
