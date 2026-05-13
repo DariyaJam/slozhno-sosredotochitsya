@@ -1,5 +1,69 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
 .page {
-  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+    color: var(--main-font-color, #353430);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3;
+    font-family: var(--page-font-family, 'IBM Plex mono'), monospace;
+    background-color: var(--background-color, #fff1f8);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 40px 0;
+}
+
+.content__section {
+    display: grid;
+    grid-template-rows: max-content 1fr;
+    gap: 20px;
+    padding: 0 clamp(10px, 0.0286rem + 2.5445vw, 20px);
+}
+
+.section__heading {
+    color: var(--section-title-color, #353430);
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.paragraph__heading, .advice__heading {
+    color: var(--paragraph-title-color, #353430);
+    font-size: 18px;
+    font-weight: 700;
+    background: var(--accent-color, #ff8dcb);
+}
+
+.advice__heading {
+    font-weight: 400;
+}
+
+.content__list {
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.content__list li {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media (width >= 768px) {
+    .section__heading {
+        text-align: start;
+    }
+
+    .content__section-type-columns {
+        grid-template-columns: 1fr 2fr;
+    }
+}
+
+@media (width >= 1024px) {
+    .content__section-type-rows .content__list {
+        flex-direction: row;
+    }
 }
