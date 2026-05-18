@@ -52,6 +52,33 @@
     outline: 1px solid currentColor;
 }
 
+.rec-decor {
+    position: absolute;
+    z-index: -1;
+    visibility: var(--rec-visibility, hidden);
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    inset-inline-end: clamp(20px, 0.7729rem + 2.0356vw, 28px);
+    inset-block-start: clamp(10px, 0.0286rem + 2.5445vw, 20px);
+}
+
+.rec-decor::before {
+    content: "REC";
+    color: var(--accent-color, #ff0070);
+    line-height: 24px;
+}
+
+.rec-decor::after {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    box-shadow: 0 0 2px 2px var(--accent-color, #ff0070);
+    background: var(--accent-color, #ff0070);
+    inline-size: 9px;
+    block-size: 9px;
+}
+
 .decorated-zone {
     position: relative;
 }

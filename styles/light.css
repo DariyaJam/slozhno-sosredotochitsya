@@ -10,6 +10,8 @@
     --paragraph-title-color: var(--color-black-2, #353430);
 
     --page-background-image: url('../images/cover-image-light.png');
+
+    --rec-visibility: hidden;
 }
 
 @media (prefers-color-scheme: light) {
@@ -24,4 +26,6 @@
     --paragraph-title-color: var(--color-black-2, #353430);
 
     --page-background-image: url('../images/cover-image-light.png');
+
+    --rec-visibility: hidden;
 }

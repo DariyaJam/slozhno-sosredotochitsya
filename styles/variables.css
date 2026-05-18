@@ -24,4 +24,6 @@
 
     --page-font-family: 'IBM Plex mono', monospace;
     --page-background-image: url('../images/cover-image-light.png');
+
+    --rec-visibility: hidden;
 }
