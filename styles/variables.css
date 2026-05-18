@@ -23,5 +23,5 @@
     --paragraph-title-color: var(--color-black-2, #353430);
 
     --page-font-family: 'IBM Plex mono', monospace;
-    --page-background-image: url('../images/cover-image.png');
+    --page-background-image: url('../images/cover-image-light.png');
 }
